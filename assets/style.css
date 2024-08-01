@@ -349,6 +349,7 @@ input[type="submit"] {
   }
   .picture {
     width: 80%;
+    object-fit: cover;
   }
 }
 footer {
@@ -359,4 +360,7 @@ footer {
 }
 footer p {
   font-size: 0.8rem;
+}
+footer a {
+  color: white;
 }

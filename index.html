@@ -52,7 +52,11 @@
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
-              ><img src="assets/images/instagram.webp" alt="Logo instagram"
+              ><img
+                src="assets/images/instagram.webp"
+                width="20"
+                height="20"
+                alt="Logo instagram"
             /></a>
           </li>
         </ul>
@@ -89,25 +93,45 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="./assets/images/slider/ryoji-iwata.webp"
-                class="d-block w-100"
-                alt="homme traversant sur un passage piéton"
-              />
+              <picture>
+                <source
+                  srcset="./assets/images/slider/ryoji-iwata-sliderMobile.webp"
+                  media="(max-width: 768px)"
+                />
+                <img
+                  src="./assets/images/slider/ryoji-iwata.webp"
+                  class="d-block w-100"
+                  alt="homme traversant sur un passage piéton"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./assets/images/slider/nicholas-green.webp"
-                class="d-block w-100"
-                alt="foule qui s'exclame avec le sourire et les bras levés"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./assets/images/slider/nicholas-green-sliderMobile.webp
+                  "
+                  media="(max-width: 768px)"
+                />
+                <img
+                  src="./assets/images/slider/nicholas-green.webp"
+                  class="d-block w-100"
+                  alt="foule qui s'exclame avec le sourire et les bras levés"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./assets/images/slider/mariageDanse.webp"
-                class="d-block w-100"
-                alt="2 mariés qui s'embrassent"
-              />
+              <picture>
+                <source
+                  srcset="./assets/images/slider/mariageDanseSliderMobile.webp"
+                  media="(max-width: 768px)"
+                />
+                <img
+                  src="./assets/images/slider/mariageDanse.webp"
+                  class="d-block w-100"
+                  alt="2 mariés qui s'embrassent"
+                />
+              </picture>
             </div>
           </div>
           <button
